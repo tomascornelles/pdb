@@ -1,3 +1,6 @@
+import config from 'data/config';
+import teams from 'data/teams';
+
 let templateBase
 let templateColor
 
