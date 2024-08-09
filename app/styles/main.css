@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --pico-font-family: "Press Start 2P", sans-serif;
+  --pico-border-radius: 0;
+}
+
+html {
+  font-size: 9px
+}
+
+#teams {
+    display: block;
+}
+
+.kits {
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.kit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 1rem;
+}
+
+#teams canvas {
+  margin: .3rem;
+}
+
+@media (min-width: 768px) {
+  #teams {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
